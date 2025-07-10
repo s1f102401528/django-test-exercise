@@ -41,6 +41,10 @@ def detail(request, task_id):
 
 
 
+
+
+
+
 def update(request, task_id):
     try:
         task = Task.objects.get(pk=task_id)
